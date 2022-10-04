@@ -1,4 +1,4 @@
-body {box-sizing: content-box; font-family: Lato;}
+body {box-sizing: content-box; font-family: Lato; margin: 0;}
 
 .container {
     display: grid;
@@ -14,10 +14,13 @@ body {box-sizing: content-box; font-family: Lato;}
 .header {
     grid-area: header;
     background-color: #57007f;
+    color: white;
 }
 
 .sidebar {
     grid-area: sidebar;
+    background-color: black;
+    color: white;
 }
 
 .content {
@@ -30,6 +33,8 @@ body {box-sizing: content-box; font-family: Lato;}
 
 .footer {
     grid-area: footer;
+    background-color: black;
+    color: white;
 }
 
 @font-face {
