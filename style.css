@@ -1,4 +1,4 @@
-body {box-sizing: content-box;}
+body {box-sizing: content-box; font-family: Lato;}
 
 .container {
     display: grid;
@@ -13,6 +13,7 @@ body {box-sizing: content-box;}
 
 .header {
     grid-area: header;
+    background-color: #57007f;
 }
 
 .sidebar {
@@ -29,4 +30,9 @@ body {box-sizing: content-box;}
 
 .footer {
     grid-area: footer;
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(Lato-Regular.ttf);
 }
