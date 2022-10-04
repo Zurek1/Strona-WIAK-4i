@@ -1,0 +1,32 @@
+body {box-sizing: content-box;}
+
+.container {
+    display: grid;
+    grid-template-columns: [first] 15% [second] 55% [third] 30%;
+    /*grid-template-rows: [one] 30% [two] 60% [three] 10%;*/
+    grid-template-rows: auto;
+    grid-template-areas:
+        "header header header"
+        "sidebar content picture"
+        "footer footer footer";
+}
+
+.header {
+    grid-area: header;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.content {
+    grid-area: content;
+}
+
+.picture {
+    grid-area: picture;
+}
+
+.footer {
+    grid-area: footer;
+}
