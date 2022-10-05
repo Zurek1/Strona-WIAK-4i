@@ -21,10 +21,13 @@ body {box-sizing: content-box; font-family: Lato; margin: 0;}
     grid-area: sidebar;
     background-color: black;
     color: white;
+    padding: 2%;
 }
 
 .content {
     grid-area: content;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 .picture {
@@ -36,6 +39,8 @@ body {box-sizing: content-box; font-family: Lato; margin: 0;}
     background-color: black;
     color: white;
 }
+
+img {max-width: 40%; height: auto; display: block; margin-left: auto; margin-right: auto;}
 
 @font-face {
     font-family: Lato;
