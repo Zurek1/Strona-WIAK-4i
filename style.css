@@ -1,4 +1,4 @@
-body {box-sizing: content-box; font-family: Lato; margin: 0;}
+body {box-sizing: border-box; font-family: Lato; margin: 0;}
 
 .container {
     display: grid;
@@ -32,6 +32,7 @@ body {box-sizing: content-box; font-family: Lato; margin: 0;}
 
 .picture {
     grid-area: picture;
+    padding: 1%;
 }
 
 .footer {
@@ -41,6 +42,22 @@ body {box-sizing: content-box; font-family: Lato; margin: 0;}
 }
 
 img {max-width: 40%; height: auto; display: block; margin-left: auto; margin-right: auto;}
+
+.logo {
+    max-width: 20%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.client {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.sidebar_image {
+    max-width: 70%;
+    margin-top: 45%;
+}
 
 @font-face {
     font-family: Lato;
