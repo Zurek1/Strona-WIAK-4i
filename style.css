@@ -48,6 +48,7 @@ img {max-width: 40%; height: auto; display: block; margin-left: auto; margin-rig
     margin-top: 1%;
     margin-bottom: 1%;
     display: inline;
+    float: left;
 }
 
 .client {
@@ -59,6 +60,31 @@ img {max-width: 40%; height: auto; display: block; margin-left: auto; margin-rig
     max-width: 70%;
     margin-top: 45%;
     margin-bottom: 45%;
+}
+
+.nav_bar {
+    list-style-type: none;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    overflow: hidden;
+    padding-left: 10%;
+}
+
+.nav_links {
+    float: left;
+    margin: 1%;
+    margin-right: 15%;
+}
+
+.nav_links a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+}
+
+.nav_links a:hover {
+    color: black;
 }
 
 @font-face {
