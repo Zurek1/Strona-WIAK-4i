@@ -87,6 +87,63 @@ img {max-width: 40%; height: auto; display: block; margin-left: auto; margin-rig
     color: black;
 }
 
+.nav_links a:active {
+    color: black;
+    text-decoration: underline;
+}
+
+.sidemenu {
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 100%;
+    top: 0;
+    right: 0.1%;
+    transition: 0.5s;
+    padding-top: 2%;
+    background-color: black;
+    overflow-x: hidden;
+    font-size: xx-small;
+}
+
+.sidemenu a {
+    margin: 5%;
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: larger;
+}
+
+.closebutton {
+    position: absolute;
+    top: 0;
+    right: 1%;
+    font-size: smaller;
+}
+
+.open {
+    width: 30%;
+    position: fixed;
+    z-index: 1;
+    height: 100%;
+    top: 0;
+    right: 0.1%;
+    transition: 0.5s;
+    padding: 2%;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.open a {
+    margin: 5%;
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: larger;
+}
+
+.openbutton {display: none; margin-left: 10%; margin-top: 5%; border: none; color: white; background-color: #57007f;}
+
 @font-face {
     font-family: Lato;
     src: url(Lato-Regular.ttf);
@@ -102,7 +159,11 @@ img {max-width: 40%; height: auto; display: block; margin-left: auto; margin-rig
         "sidebar"
         "footer";
     }
-    .logo {max-width: 50%;}
+    .logo {max-width: 50%; margin-left: 25%;}
+    .openbutton {display: inline;}
     .client_text {text-align: center;}
     .sidebar_image {margin-top: 0; margin-bottom: 0;}
+    .footer {text-align: center;}
+    .nav_bar {display: none;}
+    .header {position: sticky; top: 0;}
 }
